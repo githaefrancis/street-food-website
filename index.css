@@ -1,0 +1,19 @@
+html{
+  margin:0px 10px 0px 10px;
+}
+nav > ul{display:flex;
+justify-content: space-around;}
+nav > ul >li{
+display: flex;
+align-self: center;;
+}
+.green-dome{
+  width: 1400px;
+  height:700px;
+  background-color: green;
+  border-bottom-left-radius: 800px;
+  border-bottom-right-radius: 800px;
+  position:absolute;
+  top:0px;
+  right:-50px;
+}
