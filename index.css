@@ -213,3 +213,10 @@ form button{
   border-radius: 20px;
   border:none;
 }
+.footer{
+  position:relative;
+  top:1000px;
+  display:flex;
+  justify-content: space-around;
+
+}
