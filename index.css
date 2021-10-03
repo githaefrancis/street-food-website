@@ -169,11 +169,14 @@ text-align: center;
 .burger_text{
   float:right;
   width:500px;
+  transform: translate(-50%,100%);
 }
-
+.juice{
+  transform: translate(30%,0%);
+}
 .vegan_burger{
   position:relative;
   right:400px;
-  transform: translate(0%,15%);
+  transform: translate(30%,15%);
 
 }
