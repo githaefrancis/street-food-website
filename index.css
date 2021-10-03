@@ -9,7 +9,7 @@ html {
 }
 body {
   margin-left: 0px;
-  
+
 }
 nav > ul {
   display: flex;
@@ -204,7 +204,7 @@ nav > ul > li > a {
 
 .contact_us {
   position: relative;
-  top: 300px;
+  top: 260px;
   text-align: center;
   display: flex;
   flex-direction: column;
