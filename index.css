@@ -7,8 +7,9 @@ html {
   overflow-x: hidden;
   width: 100%;
 }
-body{
+body {
   margin-left: 0px;
+  
 }
 nav > ul {
   display: flex;
@@ -109,13 +110,13 @@ nav > ul > li > a {
   width: 200px;
   border: none;
   border-radius: 30px;
-  background-color:  #6cb840;
+  background-color: #6cb840;
 }
 
 #eat_together {
   height: 400px;
   width: 120%;
-  background-color:#ffffff;
+  background-color: #ffffff;
   position: relative;
   top: 100px;
   /* visibility: hidden; */
@@ -133,15 +134,15 @@ nav > ul > li > a {
   clear: left;
 }
 .burger_menu {
-  padding:20px;
+  padding: 20px;
   position: relative;
   top: 600px;
   height: 600px;
-  margin-left:50px;
-  margin-right:50px;
+  margin-left: 50px;
+  margin-right: 50px;
   background-color: #eaf3e4;
 }
-.burger_menu > h1{
+.burger_menu > h1 {
   text-align: center;
 }
 #burger_rows {
@@ -149,21 +150,21 @@ nav > ul > li > a {
   justify-content: space-between;
   flex-wrap: wrap;
   flex-grow: 1;
-  margin-right:80px;
-  margin-left:50px;
-  padding:20px;
+  margin-right: 80px;
+  margin-left: 50px;
+  padding: 20px;
 }
 #burger_rows > div {
   /* display:flex; */
   border-bottom-right-radius: 80px;
-  background-color:#ffffff;
+  background-color: #ffffff;
   margin: 20px;
   width: 380px;
   height: 200px;
 }
 #burger_rows > div > p {
   float: right;
-  width:180px;
+  width: 180px;
   padding-right: 30px;
   text-align: center;
 }
@@ -179,18 +180,18 @@ nav > ul > li > a {
   position: relative;
   top: 570px;
   background-color: #c9ecb5;
-  margin-left:50px;
-  margin-right:50px
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .hot_deals > h1 {
-  padding-top:10px ;
+  padding-top: 10px;
   text-align: center;
 }
 .burger_text {
   float: right;
   width: 500px;
   transform: translate(-50%, -200%);
-  clear:right;
+  clear: right;
 }
 .juice {
   transform: translate(30%, 0%);
@@ -212,11 +213,10 @@ nav > ul > li > a {
   /* transform: translate(50%,0%); */
   margin-left: 50px;
   margin-right: 50px;
-  width:border-box;
+  width: border-box;
   align-items: center;
-  height:500px;
-  width:calc(100% - 100px)
-  
+  height: 500px;
+  width: calc(100% - 100px);
 }
 
 .contact_us p {
@@ -224,9 +224,7 @@ nav > ul > li > a {
   /* transform: translate(200%,0); */
   text-align: center;
 }
-.contact_us div h2{
 
-}
 form {
   display: flex;
   flex-direction: column;
@@ -253,10 +251,14 @@ form button {
 }
 .footer {
   position: relative;
-  top: 600px;
+  top: 300px;
   display: flex;
   justify-content: space-around;
   background-color: #f1faec;
+  margin-left: 50px;
+  width: calc(100% - 100px);
+  padding-bottom:50px;
+
 }
 
 .instagram {
@@ -272,4 +274,29 @@ form button {
 #send_button {
   background-color: green;
   color: white;
+}
+
+.first_column{
+  border-right:2px dashed green;
+  padding-right: 50px;
+  border-top: transparent;
+  border-bottom: transparent;
+}
+
+#food{
+  color:#E7CA86;
+  opacity:1.1;
+}
+
+#street{
+  color:#aed09a;
+}
+
+#eat_together h1{
+
+  color:#ffe4a8;
+}
+
+.green{
+  color:#76bd4d;
 }
