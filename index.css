@@ -157,3 +157,23 @@ nav > ul > li > a {
   transform: translate(-50%, 0%);
   width: 50%;
 }
+
+.hot_deals{
+
+  position: relative;
+  top:800px;
+}
+.hot_deals > h1{
+text-align: center;
+}
+.burger_text{
+  float:right;
+  width:500px;
+}
+
+.vegan_burger{
+  position:relative;
+  right:400px;
+  transform: translate(0%,15%);
+
+}
