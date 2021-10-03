@@ -180,3 +180,36 @@ text-align: center;
   transform: translate(30%,15%);
 
 }
+
+.contact_us{
+  position: relative;
+  top:900px;
+  text-align:center;
+  display:flex;
+  flex-direction: column;
+}
+
+.contact_us p{
+  width:300px;
+  align-self: center;
+  text-align: center;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+form input,form button{
+  width:400px;
+  height:30px
+}
+
+form button{
+  margin-top:10px;
+  width:200px;
+  height:30px;
+  align-self: center;
+  border-radius: 20px;
+  border:none;
+}
