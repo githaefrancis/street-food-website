@@ -137,7 +137,6 @@ nav > ul > li > a {
   position: relative;
   top: 600px;
   height: 600px;
-  width: 100%;
   margin-left:50px;
   margin-right:50px;
   background-color: #eaf3e4;
@@ -164,20 +163,23 @@ nav > ul > li > a {
 }
 #burger_rows > div > p {
   float: right;
-  width:150px;
+  width:180px;
   padding-right: 30px;
   text-align: center;
 }
 #burger_rows img {
   /* position: relative;
   left:-300px; */
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, -70%);
   width: 50%;
+  padding-left: 100px;
 }
 
 .hot_deals {
   position: relative;
   top: 800px;
+  background-color: #c9ecb5;
+  margin-left:20px;
 }
 .hot_deals > h1 {
   text-align: center;
