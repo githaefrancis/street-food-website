@@ -40,7 +40,8 @@ nav > ul > li {
 .food-dome{
   width: 800px;
   height: 400px;
-  background-color:blue;
+  background:transparent;
+  border: 2px dashed green;
   position:absolute;
   bottom:-50px;
   right:300px;
