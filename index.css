@@ -156,11 +156,14 @@ nav > ul > li > a {
 }
 #burger_rows > div > p {
   float: right;
+  width:150px;
+  padding-right: 30px;
+  text-align: center;
 }
 #burger_rows img {
   /* position: relative;
   left:-300px; */
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, 0%);
   width: 50%;
 }
 
