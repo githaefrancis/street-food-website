@@ -177,17 +177,20 @@ nav > ul > li > a {
 
 .hot_deals {
   position: relative;
-  top: 800px;
+  top: 570px;
   background-color: #c9ecb5;
-  margin-left:20px;
+  margin-left:50px;
+  margin-right:50px
 }
 .hot_deals > h1 {
+  padding-top:10px ;
   text-align: center;
 }
 .burger_text {
   float: right;
   width: 500px;
-  transform: translate(-50%, 100%);
+  transform: translate(-50%, -200%);
+  clear:right;
 }
 .juice {
   transform: translate(30%, 0%);
@@ -200,26 +203,41 @@ nav > ul > li > a {
 
 .contact_us {
   position: relative;
-  top: 900px;
+  top: 300px;
   text-align: center;
   display: flex;
   flex-direction: column;
+  background-color: #fff5dd;
+  justify-content: center;
+  /* transform: translate(50%,0%); */
+  margin-left: 50px;
+  margin-right: 50px;
+  width:border-box;
+  align-items: center;
+  height:500px;
+  width:calc(100% - 100px)
+  
 }
 
 .contact_us p {
   width: 300px;
-  align-self: center;
+  /* transform: translate(200%,0); */
   text-align: center;
+}
+.contact_us div h2{
+
 }
 form {
   display: flex;
   flex-direction: column;
   align-self: center;
+  align-items: center;
+  /* transform: translate(200%,0); */
 }
 
 form input {
   width: 400px;
-  height: 30px;
+  height: 40px;
   border: none;
   border-radius: 20px;
 }
@@ -227,16 +245,18 @@ form input {
 form button {
   margin-top: 10px;
   width: 200px;
-  height: 30px;
+  height: 40px;
   align-self: center;
   border-radius: 20px;
   border: none;
+  background-color: #6cb840;
 }
 .footer {
   position: relative;
-  top: 1000px;
+  top: 600px;
   display: flex;
   justify-content: space-around;
+  background-color: #f1faec;
 }
 
 .instagram {
