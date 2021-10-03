@@ -1,3 +1,6 @@
+*{
+  font-family: Poppins;
+}
 html {
   margin: 0px 10px 0px 10px;
   overflow: hidden;
@@ -9,6 +12,12 @@ nav > ul {
 nav > ul > li {
   display: flex;
   align-self: center;
+  text-decoration: none;
+}
+nav > ul > li > a{
+
+  text-decoration: none;
+  color:black;
 }
 .green-dome {
   width: 1400px;
@@ -38,13 +47,44 @@ nav > ul > li {
   top:0px;
 }
 .food-dome{
-  width: 800px;
-  height: 400px;
+  width: 600px;
+  height: 330px;
   background:transparent;
   border: 2px dashed green;
   position:absolute;
-  bottom:-50px;
-  right:300px;
-  border-top-left-radius: 400px;
-  border-top-right-radius:400px;
+  bottom:-5px;
+  right:400px;
+  border-top-left-radius: 600px;
+  border-top-right-radius:600px;
+  opacity:0.6;
+}
+.food-dome :nth-child(1){
+  position:absolute;
+  bottom:10px;
+  left:-50px;
+}
+
+.food-dome :nth-child(2){
+position:absolute;
+left:50px;
+bottom:200px
+
+}
+.food-dome :nth-child(3){
+
+  position:absolute;
+  top:-40px;
+  left:40%;
+  transform: 50% 50%;
+}
+.food-dome :nth-child(4){
+position:absolute;
+bottom:200px;
+right:50px
+  
+}
+.food-dome :nth-child(5){
+  position:absolute;
+  bottom:30px;
+  right:-50px;
 }
