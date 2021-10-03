@@ -94,3 +94,23 @@ right:50px
   right: 410px;
   bottom: 200px;
 }
+
+.intro_paragraph{
+  width:400px;
+  height:400px;
+  float:left;
+  margin-left:80px;
+}
+#order_button{
+  height:50px;
+  width:200px;
+  border:none;
+  border-radius:30px;
+  background-color: green ;
+}
+
+#eat_together{
+  height:400px;
+  width:100%;
+  background-color: ;
+}
